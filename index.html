@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/pata.png" type="image/x-icon">
+    <title>Footprints</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/adicional.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="menu-navegacion">
+            <div class="cont-logo">
+                <a href="#" class="texto-nav">
+                    <img src="./assets/icons/logo.png" alt="Logo de footprints" width="45" height="45" class="logo">
+                    Footprints
+                </a>
+            </div>
+            <div class="opciones-nav">
+                <ul class="lista-opciones">
+                    <li>
+                        <a href="#" class="texto-nav opc">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#nuestrospeluditos" class="texto-nav opc">Nuestros peluditos</a>
+                    </li>
+                    <li>
+                        <a href="#productos" class="texto-nav opc">Productos</a>
+                    </li>
+                    <li>
+                        <a href="#servicios" class="texto-nav opc">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#sedes" class="texto-nav opc">Sedes</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cont-carrito">
+                <a href="#">
+                    <img src="./assets/icons/carrito-de-compras.png" width="45" height="45" alt="Carrito de compras">
+                </a>
+            </div>
+        </nav>
+        <div class="footprints">
+            <h1 class="titulo-principal">Footprints</h1>
+            <h2 class="friends">Friends of Life</h2>
+        </div>
+        <div class="cont-amigos">
+            <img class="amigos" src="./assets/images/background.jpg" alt="Gato y Perro saludando">
+            <div class="cont-lema">
+                <p class="tamano-lema">Desde ronroneos hasta ladridos felices, aquí encontrarás todo para mantener esa
+                    alegría.</p>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="nuestrospeluditos" class="seccionCarrusel">
+            <div>
+                <h2>Nuestros peluditos</h2>
+            </div>
+            <div class="cont-carrusel">
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/miau-miau.jpg" class="d-block w-100" alt="..."
+                                style="height: 410px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/cachorrito.webp" class="d-block w-100" alt="..."
+                                style="height: 410px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/wow.jpeg" class="d-block w-100" alt="..." style="height: 410px;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos" class="seccionCarrusel">
+            <div>
+                <h2>Productos del mes</h2>
+            </div>
+            <div class="cont-carrusel">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./assets/images/spa.jpg" class="d-block w-100" alt="..." style="height: 410px;">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./assets/images/interco.jpg" class="d-block w-100" alt="..." style="height: 410px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/limpieza-dog.jpg" class="d-block w-100" alt="..." style="height: 410px;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="servicios-section">
+            <h2>Nuestros Servicios</h2>
+            <p>En Footprints, nos preocupamos por el bienestar de tus adorables compañeros. Ofrecemos una variedad de
+                servicios diseñados para cubrir todas sus necesidades.</p>
+            <ul>
+                <li><strong>Paseos Personalizados:</strong> Adaptamos nuestros paseos a la energía y las necesidades de
+                    cada mascota.</li>
+                <li><strong>Cuidado a Domicilio:</strong> Para esos momentos en que no puedes estar en casa, nosotros
+                    los cuidamos en su entorno familiar.</li>
+                <li><strong>Asesoramiento Nutricional:</strong> Nuestros expertos te guiarán para asegurar una
+                    alimentación saludable y equilibrada.</li>
+                <li><strong>Entrenamiento Básico:</strong> Clases para ayudar a tu mascota a desarrollar buenos modales
+                    y fortalecer el vínculo entre ambos.</li>
+            </ul>
+        </section>
+
+        <section id="sedes" class="sedes-section">
+            <h2>Nuestras Sedes</h2>
+            <div class="sede">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Sede Principal Norte - Bogotá</h3>
+                <p>Dirección: Calle 140 #7C 25 Usaquén, Bogotá</p>
+                <p>Horario de Atención: Lunes a Viernes de 9:00 AM a 6:00 PM</p>
+                <a href="https://www.google.com/maps/place/Bogot%C3%A1,+Colombia/" target="_blank">Ver en el mapa</a>
+            </div>
+            <div class="sede">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Sede Medellín</h3>
+                <p>Dirección: Carrera 90 #52-21, Medellín, Colombia</p>
+                <p>Horario de Atención: Lunes a Sábado de 10:00 AM a 7:00 PM</p>
+                <a href="https://www.google.com/maps/place/Medell%C3%ADn,+Antioquia,+Colombia/" target="_blank">Ver en
+                    el mapa</a>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="logo-footer">
+            <a href="#" class="texto-nav">
+                <img src="./assets/icons/logo.png" alt="Logo de footprints" width="70" height="70" class="logo">
+            </a>
+        </div>
+        <div class="copyright">
+            <p>Prohibida su reproduccion total o parcial, asi como su traduccion.</p>
+            <p>Politica de tratamiento de datos personales </p>
+            <p> Calle 140 #7C 25 Usaquén, Bogotá. Tel.: (601)5253021</p>
+            <p>© 2025 Tienda de mascotas. Todos los derechos reservados.</p>
+        </div>
+
+        <div class="cont-redes">
+            <a href="#" class="texto-nav"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="texto-nav"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="texto-nav"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="texto-nav"><i class="bi bi-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
